@@ -5,6 +5,8 @@
 def add_matrices2D(mat1, mat2):
     """
         Add two matrices element-wise
+        mat1: 2D matrix of ints/floats
+        mat2: 2D matrix of ints/floats
 
         Return: Return new matrix or
                 None if two matrices are not the same shape
