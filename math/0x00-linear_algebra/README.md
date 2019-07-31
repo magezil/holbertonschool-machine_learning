@@ -67,3 +67,8 @@ Concatenate two matrices along a specific axis
 * Usage: `np_cat(mat1, mat2, axis=0)`
 * Return: new numpy.ndarray
 
+### 14-saddle_up.py
+Perform matrix multiplication
+* Usage: `np_matmul(mat1, mat2)`
+* Return: new numpy.ndarray
+
