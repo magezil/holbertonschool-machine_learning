@@ -9,7 +9,6 @@ def matrix_transpose(matrix):
         Return: 2D transpose of matrix
     """
     new_matrix = []
-    
     for i, row in enumerate(matrix):
         for j, col in enumerate(row):
             if i == 0:
