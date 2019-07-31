@@ -9,7 +9,7 @@ def add_matrices2D(mat1, mat2):
         Return: Return new matrix or
                 None if two matrices are not the same shape
     """
-    if matrix_shape(mat1) != matrix_shape(mat2):
+    if len(mat1) != len(mat2) or len(mat1[0]) != len(mat2[0]):
         return None
 
     sum_matrix = []
@@ -18,15 +18,3 @@ def add_matrices2D(mat1, mat2):
         for x, y in zip(row1, row2):
             sum_matrix[-1].append(x + y)
     return sum_matrix
-
-
-def matrix_shape(matrix):
-    """
-        Calculates the shape of given matrix
-        matrix: matrix to calculate
-
-        Return: list of ints
-    """
-    if type(matrix[0]) is not list:
-        return [len(matrix)]
-    return [len(matrix)] + matrix_shape(matrix[0])
