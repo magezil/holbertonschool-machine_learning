@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Implement np_cat(mat1, mat2, axis=0) function"""
+import numpy as np
 
 
 def np_cat(mat1, mat2, axis=0):
@@ -11,5 +12,4 @@ def np_cat(mat1, mat2, axis=0):
 
         Return: new numpy.ndarray
     """
-    import numpy as np
-    return np.concatenate((mat1[:], mat2[:]), axis=axis)
+    return np.concatenate((mat1, mat2), axis=axis)

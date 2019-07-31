@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Implement np_matmul function"""
+import numpy as np
 
 
 def np_matmul(mat1, mat2):
@@ -10,5 +11,4 @@ def np_matmul(mat1, mat2):
 
         Return: new numpy.ndarray
     """
-    import numpy as np
     return np.matmul(mat1, mat2)
