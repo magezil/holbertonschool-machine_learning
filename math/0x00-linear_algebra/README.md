@@ -57,3 +57,8 @@ Get the transpose of a matrix using numpy
 * Usage: `np_transpose(matrix)`
 * Return: new numpy.ndarray
 
+### 12-bracin_the_elements.py
+Calculates element-wise addition, subtraction, multiplication, and division
+* Usage: `np_elementwise(mat1, mat2)`
+* Return: tuple containing element-wise sum, difference, product, and quotient
+
