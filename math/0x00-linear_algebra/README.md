@@ -29,3 +29,8 @@ Add two matrices of the same shape element-wise
 * Usage: `add_matrices2D(mat1, mat2)`
 * Return: new matrix
 
+### 6-howdy_partner.py
+Concatenate two arrays
+* Usage: `cat_arrays(arr1, arr2)`
+* Return: new list
+

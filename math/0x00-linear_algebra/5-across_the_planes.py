@@ -6,7 +6,8 @@ def add_matrices2D(mat1, mat2):
     """
         Add two matrices element-wise
 
-        Return: Return new matrix or None if two matrices are not the same shape
+        Return: Return new matrix or
+                None if two matrices are not the same shape
     """
     if matrix_shape(mat1) != matrix_shape(mat2):
         return None
