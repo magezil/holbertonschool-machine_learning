@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Implement np_shape(matrix) function"""
+"""Implement np_shape function"""
 
 
 def np_shape(matrix):

@@ -52,3 +52,8 @@ Calculate the shape of a matrix using numpy
 * Usage: `np_shape(matrix)`
 * Return: tuple of integers
 
+### 11-the_western_exchange.py
+Get the transpose of a matrix using numpy
+* Usage: `np_transpose(matrix)`
+* Return: new numpy.ndarray
+
