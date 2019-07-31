@@ -6,15 +6,15 @@ Slice the array `arr` in three different ways:
 - `arr2`: last five numbers of `arr`
 - `arr3`: second through sixth numbers of `arr`
 
-## 1-trim_me_down.py
+### 1-trim_me_down.py
 Using only one `for` loop, create `the_middle` such that it contains the middle two elements of each row of `matrix`
 
-## 2-size_me_please.py
+### 2-size_me_please.py
 Calculate the shape of a matrix `matrix`
 * Usage: `matrix_shape(matrix)`
 * Returns: list of integers
 
-## 3-flip_me_over.py
+### 3-flip_me_over.py
 Get the transpose of a 2D matrix `matrix`
 * Usage: `matrix_transpose(matrix)`
 * Return: 2D transpose of matrix
@@ -43,4 +43,8 @@ Concatenate two matrices along a given axis
 Perform matrix multiplication
 * Usage: `mat_mul(mat1, mat2)`
 * Return: new matrix
+
+### 9-let_the_butcher_slice_it.py
+Use numpy to get the middle two rows, columns, and bottom 3x3 matrix of `matrix`
+
 
