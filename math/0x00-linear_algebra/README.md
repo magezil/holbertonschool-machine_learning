@@ -62,3 +62,8 @@ Calculates element-wise addition, subtraction, multiplication, and division
 * Usage: `np_elementwise(mat1, mat2)`
 * Return: tuple containing element-wise sum, difference, product, and quotient
 
+### 13-cats_got_your_tongue.py
+Concatenate two matrices along a specific axis
+* Usage: `np_cat(mat1, mat2, axis=0)`
+* Return: new numpy.ndarray
+
