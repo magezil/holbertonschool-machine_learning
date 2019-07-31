@@ -24,3 +24,8 @@ Add two arrays of the same shape element-wise
 * Usage: `add_arrays(arr1, arr2)`
 * Return: list of integers
 
+### 5-across_the_planes.py
+Add two matrices of the same shape element-wise
+* Usage: `add_matrices2D(mat1, mat2)`
+* Return: new matrix
+

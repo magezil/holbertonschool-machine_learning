@@ -10,22 +10,10 @@ def add_arrays(arr1, arr2):
 
         Return: list of ints/floats or None if arrays are not same shape
     """
-    if matrix_shape(arr1) != matrix_shape(arr2):
+    if len(arr1) != len(arr2):
         return None
 
     sum_matrix = []
     for x, y in zip(arr1, arr2):
         sum_matrix.append(x + y)
     return sum_matrix
-
-
-def matrix_shape(matrix):
-    """
-        Calculates the shape of given matrix
-        matrix: matrix to calculate
-
-        Return: list of ints
-    """
-    if type(matrix[0]) is not list:
-        return [len(matrix)]
-    return [len(matrix)] + matrix_shape(matrix[0])
