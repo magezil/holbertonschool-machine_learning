@@ -2,6 +2,12 @@
 
 
 def matrix_transpose(matrix):
+    """
+        Get the transpose of a 2D matrix
+        matrix: matrix to calculate
+
+        Return: 2D transpose of matrix
+    """
     new_matrix = []
     
     for i, row in enumerate(matrix):

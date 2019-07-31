@@ -11,16 +11,16 @@ Using only one `for` loop, create `the_middle` such that it contains the middle 
 
 ## 2-size_me_please.py
 Calculate the shape of a matrix `matrix`
-Usage: `matrix_shape(matrix)`
-Returns: list of integers
+* Usage: `matrix_shape(matrix)`
+* Returns: list of integers
 
 ## 3-flip_me_over.py
 Get the transpose of a 2D matrix `matrix`
-Usage: `matrix_transpose(matrix)`
-Return: 2D transpose of matrix
+* Usage: `matrix_transpose(matrix)`
+* Return: 2D transpose of matrix
 
 ### 4-line_up.py
 Add two arrays of the same shape element-wise
-Usage: `add_arrays(arr1, arr2)`
-Return: list of integers
+* Usage: `add_arrays(arr1, arr2)`
+* Return: list of integers
 
