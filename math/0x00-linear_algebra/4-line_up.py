@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Implement add_arrays function"""
 
 
 def add_arrays(arr1, arr2):
