@@ -47,4 +47,8 @@ Perform matrix multiplication
 ### 9-let_the_butcher_slice_it.py
 Use numpy to get the middle two rows, columns, and bottom 3x3 matrix of `matrix`
 
+### 10-ill_use_my_scale.py
+Calculate the shape of a matrix using numpy
+* Usage: `np_shape(matrix)`
+* Return: tuple of integers
 
