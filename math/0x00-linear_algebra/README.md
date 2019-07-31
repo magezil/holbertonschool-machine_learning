@@ -39,3 +39,8 @@ Concatenate two matrices along a given axis
 * Usage: `cat_matrices2D(mat1, mat2, axis=0)`
 * Return: new matrix
 
+### 8-ridin_bareback.py
+Perform matrix multiplication
+* Usage: `mat_mul(mat1, mat2)`
+* Return: new matrix
+

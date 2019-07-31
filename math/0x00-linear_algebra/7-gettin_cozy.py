@@ -5,6 +5,8 @@
 def cat_matrices2D(mat1, mat2, axis=0):
     """
         Concatenate two matrices along a given axis
+        mat1: 2D matrix of ints/floats
+        mat2: 2D matrix of ints/floats
 
         Return: new matrix or none if two matrices are of different shapes
     """
