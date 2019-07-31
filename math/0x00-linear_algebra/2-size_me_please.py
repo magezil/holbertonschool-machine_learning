@@ -8,6 +8,8 @@ def matrix_shape(matrix):
 
         Return: list of ints
     """
+    if not matrix:
+        return None
     if type(matrix[0]) is not list:
         return [len(matrix)]
     return [len(matrix)] + matrix_shape(matrix[0])
