@@ -34,3 +34,8 @@ Concatenate two arrays
 * Usage: `cat_arrays(arr1, arr2)`
 * Return: new list
 
+### 7-gettin_cozy.py
+Concatenate two matrices along a given axis
+* Usage: `cat_matrices2D(mat1, mat2, axis=0)`
+* Return: new matrix
+
