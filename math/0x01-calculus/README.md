@@ -22,3 +22,6 @@
 ### 7-partial_truths
 * Answer to partial derivatives question
 
+### 8-all-together
+* Add answer to partial derivative question
+
