@@ -19,3 +19,6 @@
 ### 6-voltaire
 * Answer for a derivatives question
 
+### 7-partial_truths
+* Answer to partial derivatives question
+
