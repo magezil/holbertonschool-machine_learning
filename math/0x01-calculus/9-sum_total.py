@@ -7,8 +7,9 @@ def summation_i_squared(n):
         Calculates the sum of i^2 from i = 1 to n
         n: integer to stop sum
 
-        Return: integer
+        Return: integer, or None if n is negative or 0 or
+                not a number
     """
-    if n <= 1:
-        return n**2
-    return n**2 + summation_i_squared(n - 1)
+    if type(n) is not int or n <= 0:
+        return None
+    return n * (n + 1) * (2 * n + 1) // 6

@@ -26,7 +26,7 @@
 * Add answer to partial derivative question
 
 ### 9-sum_total.py
-Calculates the sum of i^2 from i = 1 to n
+Calculates the sum of i^2 from i = 1 to n using Faulhaber's formula
 * Usage: `summation_i_squared(n)`
 * Return: integer
 
