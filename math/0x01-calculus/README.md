@@ -44,3 +44,6 @@ Calculate the derivative of a polynomial represented by a list of coefficients
 ### 13-definite
 * Add answer to definite integral question
 
+### 14-definite
+* Add answer to definite integral question
+
