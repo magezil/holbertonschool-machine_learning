@@ -53,3 +53,8 @@ Calculate the derivative of a polynomial represented by a list of coefficients
 ### 16-double
 * Add answer to double definite integral question
 
+### 17-integrate.py
+Calculate the integral of a polynomial represented by a list of coefficients
+* Usage: `poly_integral(poly, C=0)`
+* Return: list of coefficients representing the integral
+
