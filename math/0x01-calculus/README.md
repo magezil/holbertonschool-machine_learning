@@ -26,7 +26,12 @@
 * Add answer to partial derivative question
 
 ### 9-sum_total.py
-Calculates the sum of i^2 from i = 1 to n
+Calculates the sum of i^2 from i = 1 to n using Faulhaber's formula
 * Usage: `summation_i_squared(n)`
 * Return: integer
+
+### 10-matisse.py
+Calculate the derivative of a polynomial represented by a list of coefficients
+* Usage: `poly_derivative(poly)`
+* Return: list of coefficients representing the derivative
 
