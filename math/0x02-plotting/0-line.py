@@ -4,4 +4,5 @@ import matplotlib.pyplot as plt
 
 y = np.arange(0, 11) ** 3
 
-plt.plot(range(11), y)
+plt.plot(y, color='red')
+plt.show()
