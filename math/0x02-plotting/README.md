@@ -9,3 +9,6 @@ Plot line graph with y-axis logarithmically scaled
 
 ### 3-two.py
 Plot line graph with two subplots
+
+### 4-frequency.py
+Plot a histogram
